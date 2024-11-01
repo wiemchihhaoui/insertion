@@ -1,0 +1,11 @@
+ALGORITHM pump
+VAR
+    D,G,F:FLOAT
+    approximate distance:FLOAT
+BEGIN
+    Read(D)
+    Read(G)
+    Read(F)
+    approximatedistance:=G*F
+    Write(approximate distance>=D)
+END

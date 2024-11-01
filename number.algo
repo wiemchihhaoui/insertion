@@ -1,0 +1,10 @@
+ALGORITHM number
+VAR
+    n,i,result:INTEGER
+BEGIN
+    read (n)
+    FOR i FROM 1 TO n STEP 1 DO
+        result:=i+n
+    END_FOR
+    Write(result)
+END

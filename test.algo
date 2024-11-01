@@ -1,0 +1,14 @@
+ALGORITHM  
+VAR
+    circlearea, circleradius:FLOAT;
+    pi:FLOAT:=3.14
+BEGIN
+    Read(circleradius);
+    circlearea:=circleradius* circleradius* pi;
+    Write(circlearea);
+
+END 
+
+//calculation ofthe cercle's area 
+// 1- Read the circle's radius  
+// 2-

@@ -1,0 +1,10 @@
+//problem:
+ALGORITHM water
+
+VAR
+    l,t:FLOAT
+BEGIN
+    Read (t)
+    l:=t*0.5
+    Write (l)
+END

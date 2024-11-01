@@ -1,0 +1,13 @@
+ALGORITHM sheep
+VAR
+    n,i :INTEGER;
+    result:STRING;
+BEGIN
+    Write("Sheep...")
+    Read(n);
+    result=""
+     FOR i FROM 1 TO n STEP 1  DO
+        result:=result+i+"sheep..."
+     END_FOR
+     Write(result)
+END  

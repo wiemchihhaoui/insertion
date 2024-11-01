@@ -1,0 +1,15 @@
+//problem :get the nth even number
+//inputs:n : the position of the even number
+//outputs write the even number at that position
+//1-read n
+//2- calculate this equation :(n+1)*2 and store in  result variable
+//3- write the result
+
+ALGORITHM even 
+VAR
+    n , result: INTEGER
+BEGIN
+    Read(n)
+    result:=(n-1)*2
+    write(result)
+END
